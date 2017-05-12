@@ -4,9 +4,9 @@
 #
 ################################################################################
 
-WEBBRIDGE_VERSION = 92729ca48723345efec5d31fb9abd886048c580e
+WEBBRIDGE_VERSION = 230151c414cd063754a9a083f4c0ae6ec20f49ea
 WEBBRIDGE_SITE_METHOD = git
-WEBBRIDGE_SITE = git@github.com:Metrological/webbridge.git
+WEBBRIDGE_SITE = git@github.com:a-piro/webbridge.git
 WEBBRIDGE_INSTALL_STAGING = YES
 WEBBRIDGE_DEPENDENCIES += cppsdk
 
