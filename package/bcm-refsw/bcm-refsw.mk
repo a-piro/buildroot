@@ -16,8 +16,8 @@ else
 BCM_REFSW_VERSION = 16.2-5
 endif
 
-BCM_REFSW_SITE = git@github.com:Metrological/bcm-refsw.git
-BCM_REFSW_SITE_METHOD = git
+BCM_REFSW_SITE = "file://$(TOPDIR)/package/bcm-refsw/"
+BCM_REFSW_SITE_METHOD = file
 
 BCM_REFSW_DEPENDENCIES = linux host-pkgconf host-flex host-bison host-gperf
 BCM_REFSW_LICENSE = PROPRIETARY
